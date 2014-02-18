@@ -20,12 +20,14 @@ public class Server{
 
 				while ((entrada = in.readLine()) != null) {					
 				    System.out.println(entrada);
-				    out.println("Hola desde el servidor!!");
+			    	    String pathDesktop = System.getProperty("user.home") + "\\Desktop\\";
+				    out.println("Hola desde el servidor!! -> " + pathDesktop);
 				    out.println("");
-				    s1.close();
 				    if (entrada.trim().equals(comandoSalir))
 				        return;
-				}
+				} 
+				s1.close();
+				   
 			}
 
 		} catch (IOException e) {
