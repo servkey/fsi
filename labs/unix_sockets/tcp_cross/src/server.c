@@ -13,7 +13,7 @@
 //Conexiones pendientes
 #define QC 10
 
-
+  
  int main(int argc, char *argv[ ])
 {
 	struct sockaddr_in local;
