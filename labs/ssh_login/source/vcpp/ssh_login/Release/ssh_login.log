@@ -1,0 +1,17 @@
+﻿Build started 30/03/2015 09:23:04 a. m..
+     1>Project "C:\Users\servkey\Google Drive\Documentos\FEI\Cursos\8_Febrero15_Mayo15\DAR\repository\prácticas\ssh_login\source\vcpp\ssh_login\ssh_login.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Release\ssh_login.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         All outputs are up-to-date.
+         ssh_login.vcxproj -> C:\Users\servkey\Google Drive\Documentos\FEI\Cursos\8_Febrero15_Mayo15\DAR\repository\prácticas\ssh_login\source\vcpp\ssh_login\..\..\..\bin_win32\ssh_login.exe
+       FinalizeBuildStatus:
+         Deleting file "Release\ssh_login.unsuccessfulbuild".
+         Touching "Release\ssh_login.lastbuildstate".
+     1>Done Building Project "C:\Users\servkey\Google Drive\Documentos\FEI\Cursos\8_Febrero15_Mayo15\DAR\repository\prácticas\ssh_login\source\vcpp\ssh_login\ssh_login.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:00.07

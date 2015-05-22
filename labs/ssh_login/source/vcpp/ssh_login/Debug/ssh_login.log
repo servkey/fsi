@@ -1,0 +1,19 @@
+﻿Build started 30/03/2015 09:23:11 a. m..
+     1>Project "C:\Users\servkey\Google Drive\Documentos\FEI\Cursos\8_Febrero15_Mayo15\DAR\repository\prácticas\ssh_login\source\vcpp\ssh_login\ssh_login.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Debug\ssh_login.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         All outputs are up-to-date.
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"..\..\..\bin_win32\ssh_login.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib ..\..\..\lib\ssh.lib ..\..\..\lib\ws2_32.lib /MANIFEST /ManifestFile:"Debug\ssh_login.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\servkey\Google Drive\Documentos\FEI\Cursos\8_Febrero15_Mayo15\DAR\repository\prácticas\ssh_login\bin_win32\ssh_login.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"..\..\..\bin_win32\ssh_login.lib" /MACHINE:X86 Debug\ssh_login.obj
+         ssh_login.vcxproj -> C:\Users\servkey\Google Drive\Documentos\FEI\Cursos\8_Febrero15_Mayo15\DAR\repository\prácticas\ssh_login\source\vcpp\ssh_login\..\..\..\bin_win32\ssh_login.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"..\..\..\bin_win32\ssh_login.exe;#1" /manifest Debug\ssh_login.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Debug\ssh_login.unsuccessfulbuild".
+         Touching "Debug\ssh_login.lastbuildstate".
+     1>Done Building Project "C:\Users\servkey\Google Drive\Documentos\FEI\Cursos\8_Febrero15_Mayo15\DAR\repository\prácticas\ssh_login\source\vcpp\ssh_login\ssh_login.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.62

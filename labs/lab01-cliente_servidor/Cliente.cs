@@ -47,7 +47,7 @@ class Program
 
         static void Main(string[] args)
         {           
-            int port = 8000;            
+            int port = 8080;            
             try
 	    {
 		if (args.Length > 0){
