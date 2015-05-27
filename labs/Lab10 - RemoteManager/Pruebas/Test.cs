@@ -21,13 +21,13 @@ namespace Pruebas
         public Test()
         {
             InitializeComponent();
-            w = new WQLUtil.Util.Window.WindowManager(WinEventProc);
+            //w = new WQLUtil.Util.Window.WindowManager(WinEventProc);
             m = new WQLUtil.Util.Mouse.MouseManager();
                  
             m.Hook.OnMouseActivity += new MouseEventHandler(MouseMoved);
-           // m.Hook.KeyDown += new KeyEventHandler(ExtKeyDown);
-             m.Hook.KeyPress += new KeyPressEventHandler(ExtKeyPress);
-           // m.Hook.KeyUp += new KeyEventHandler(ExtKeyUp);
+            m.Hook.KeyDown += new KeyEventHandler(ExtKeyDown);
+            m.Hook.KeyPress += new KeyPressEventHandler(ExtKeyPress);
+            m.Hook.KeyUp += new KeyEventHandler(ExtKeyUp);
         }
 
         private void Log(string txt)
