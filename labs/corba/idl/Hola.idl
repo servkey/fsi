@@ -1,8 +1,0 @@
-module HolaApp
-{
-  interface Hola
-  {
-  	string saludar();
-	long sumar(in long x,in long y);
-  };
-};
