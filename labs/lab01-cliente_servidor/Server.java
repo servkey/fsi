@@ -6,7 +6,7 @@ public class Server{
 	public static void main(String args[]){
 		try {
 
-			int puerto = 5000;
+			int puerto = 9096;
 
 			ServerSocket s = new ServerSocket(puerto);
 			String comandoSalir = "Exit";
