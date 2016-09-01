@@ -11,6 +11,7 @@ public class Programa{
 		h3.start();
 		h4.start();
 
+/*
 		new Thread(new Runnable(){
 			public void run(){
 				System.out.println("Hola desde Run");
@@ -19,6 +20,7 @@ public class Programa{
 
 		Thread cpu1 = new Thread(new MiThreadRunnable());
 		cpu1.start();
+*/
 	}
 }
 
